@@ -1,0 +1,51 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        .first-panel {
+            background: #edffc1;
+            width: 50vh;
+            height: 100vh;
+            flex: 1;
+        }
+
+        .second-panel {
+            background: #ff9e9e;
+            width: 50vh;
+            height: 100vh;
+            flex: 0.5;
+        }
+
+        .second-panel {
+            padding: 20px;
+        }
+
+        .s-container {
+            border: 1px solid gray;
+            margin-bottom: 10px;
+        }
+
+        .field {
+            position: relative;
+        }
+
+        .field label {
+            position: absolute;
+            left: 0px;
+        }
+
+        .title {
+
+        }
+
+
+        .login-form {
+
+        }
+
+        .footer {
+
+        }
