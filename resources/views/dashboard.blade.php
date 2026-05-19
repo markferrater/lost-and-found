@@ -922,7 +922,7 @@
                     <label for="category">Categories</label>
                     <select name="category" id="category" onchange='card()' >
                         <option value="all">all</option>
-                        <option value="Books">Books</option>
+                        <option value="Books">Bookswewewewe</option>
                         <option value="Electronics">Electronics</option>
                         <option value="Clothing">Clothing</option>
                         <option value="Jewelry">Jewelry</option>

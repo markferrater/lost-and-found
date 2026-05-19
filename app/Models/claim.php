@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Models;
+use App\Models\report;
+use App\Models\retriever;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,7 +20,7 @@ class claim extends Model
     ];
 
      public function report(){
-        return $this->belongsTo(Report::class, 'report_id');
+        return $this->belongsTo(report::class, 'report_id');
     }
 
     public function retriever(){
